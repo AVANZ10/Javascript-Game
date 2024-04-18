@@ -1,5 +1,3 @@
-
-
 let conf = {
     BACKGROUND_IMG_SRC: "../assets/img/background.png",
     BG_WIDTH: 900,

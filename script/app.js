@@ -10,8 +10,9 @@ let g = new Game(canvas, conf, playerNick);
 g.init();
 
 function runGame( ) {
-    g.draw();
+
     g.update();
+    g.draw();
     requestAnimationFrame(runGame);
 }
 
